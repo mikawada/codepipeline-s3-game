@@ -1,26 +1,25 @@
-# Continuous Deployment using AWS Code Pipeline and S3
+# Building a Game with a Continuous Deployment Pipeline from GitHub to S3
 
-This repo contains the code files used in this [YouTube video](https://youtu.be/biYVW1TMYAU).
+## Description
+XXX (_Guided project by @tinytechnicaltutorials_)
 
-## TL;DR
-Code for a game is hosted in GitHub.  We create an S3 bucket for static website hosting, then create a continuous deployment pipeline (using AWS Code Pipeline) to automatically deploy the code whenever changes are made.
+## Tools and Services Used
+- AWS CodePipeline
+- Amazon S3
+- GitHub
+- HTML, CSS, JavaScript
 
-## The Game
-A simple memory matching game.  The user clicks two cards (images of memes) to try to match them.  If there's a match, the cards disappear from the board.  If there's no match, the cards are flipped back to their blank side so the user can try again.
+## Cost and Time
+- Cost: $0 (eligible for free tier)
+- Time: 30 minutes
 
-The game consists of HTML, CSS and JavaScript.
+## Key Procedures
+1. Fork a GitHub repo (provided by @tinytechnicaltutorials)
+2. Create an S3 bucket
+3. Set up CodePipeline
+4. Commit a code change in GitHub
 
-Ideas for additional features:
-- A scoring mechanism
-- A timer
-- Add additional cards
-- Multi-player capabilities so you can compare scores 
+## Step-by-Step Walkthrough
+### Step 1: XXX
 
-## The Deployment Environment
-The code will be deployed and hosted in S3.
-
-## The Deployment Pipeline
-The pipeline is created using AWS Code Pipeline.  The pipeline pulls the code from GitHub, and deploys it to S3 whenever a change is detected in the code.
-
-## Cost
-All services used are eligible for the [AWS Free Tier](https://aws.amazon.com/free/).  However, charges will incur at some point so it's recommended that you shut down resources after completing this tutorial.
+## Conclusion
