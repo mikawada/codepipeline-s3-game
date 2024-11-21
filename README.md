@@ -72,3 +72,5 @@ Once the Source stage was fully loaded, I returned to the S3 website, refreshed 
 <img src="Screenshots/step4_3.png" alt="Preview" width="600"/>
 
 ## Conclusion
+
+This guided project by @tinytechnicaltutorials gave me the opportunity to apply the concept of continuous deployment to a hands-on project, showing how CodePipeline connects sources like GitHub and S3. As I become more familiar with CodePipeline, I look forward to tackling more complex projects that fully demonstrate why CodePipeline is such a valuable tool in real-world applications.
